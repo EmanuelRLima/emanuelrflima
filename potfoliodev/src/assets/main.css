@@ -5,7 +5,8 @@ ul {
 }
 
 .FontProjectLight {
-  font-family: "FontProject Light";
+  font-family: "FontProject bold";
+  font-weight: 500;
 }
 
 .FontProjectMedium {
@@ -22,9 +23,21 @@ ul {
   width: 90%;
 }
 
+.imgGit{
+  width:420px;
+  height: 180px;
+  border-radius:0.25rem;
+  box-shadow:-0.75rem 1.25rem 1.05rem 0.25rem;
+}
 @media screen and (max-width: 768px) {
   .imgstart{
     width: 50%;
+  }
+  .imgGit{
+    width: 300px;
+    height: 140px;
+    border-radius: 0.25rem;
+    box-shadow: 0rem 1.25rem 1.05rem 0.25rem;
   }
 }
 

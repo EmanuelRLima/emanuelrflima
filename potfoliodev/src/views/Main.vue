@@ -1,8 +1,9 @@
 <script>
 import Start from '../components/Start.vue';
+import About from '../components/AboutMe.vue';
 export default {
   name: 'MainComponent',
-  components: { Start },
+  components: { Start, About },
   setup () {
   },
   data () {
@@ -17,5 +18,6 @@ export default {
 <template>
   <div>
     <Start />
+    <About />
   </div>
 </template>

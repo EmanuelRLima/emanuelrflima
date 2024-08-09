@@ -17,21 +17,16 @@ export default {
 </script>
 <template>
 <div>
-    <!-- <div class="row">
-  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-  <div class="col-6 col-md-4">.col-6 .col-md-4</div>
-</div> -->
     <div v-if="Store.leanguage === 'PT-BR'" class="mb-5">
         <div class="d-flex justify-content-center container">
             <div class="d-flex flex-column-reverse flex-md-row justify-content-between align-items-center row" style="padding-top: 5.5rem; column-gap: 2rem;">
-                <div class="col-md" style="grid-column: initial; text-align: center;">
+                <div class="col-md FontProjectLight" style="grid-column: initial; text-align: center;">
                     <span>
                         <h1 style="color: rgb(40, 40, 40);">Olá, sou o Emanuel</h1>
                         <br>
                         <strong><h2 style="color: rgb(15, 141, 48);">FRONTEND ENGINEER</h2></strong>
                         <br>
-                        <strong><h4 style="color: rgb(40, 40, 40); font-size: 18px;">E aqui você encontra um pouco sobre meu lado profissional. </h4></strong>
+                        <strong><h4 style="color: rgb(40, 40, 40); font-size: 20px;">E aqui você encontra um pouco sobre meu lado profissional. </h4></strong>
                     </span>
                     <button type="button" class="btn btn-outline" style="color: rgb(15, 141, 48); border: solid rgb(118, 235, 149);">Vamos lá!</button>
                 </div>
