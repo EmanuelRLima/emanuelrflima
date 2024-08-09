@@ -1,0 +1,57 @@
+@import './base.css';
+
+ul {
+  list-style-type: none;
+}
+
+.FontProjectLight {
+  font-family: "FontProject Light";
+}
+
+.FontProjectMedium {
+  font-family: "FontProject Medium";
+  font-weight: 500;
+}
+
+.text-green{
+  color: green !important;
+}
+
+.imgstart{
+  border-radius: 50%;
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .imgstart{
+    width: 50%;
+  }
+}
+
+.navlink {
+  font-family: "FontProject Medium";
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "FontProject Italic";
+  src: url('~@/assets/fonts/HelveticaNeueThinItalic.otf');
+}
+
+@font-face {
+  font-family: "FontProject Thin";
+  src: url('~@/assets/fonts/HelveticaNeueThin.otf');
+}
+@font-face {
+  font-family: "FontProject bold";
+  src: url('~@/assets/fonts/HelveticaNeueBold.otf');
+}
+@font-face {
+  font-family: "FontProject Medium";
+  src: url('~@/assets/fonts/HelveticaNeueMedium.otf');
+}
+@font-face {
+  font-family: "FontProject Light";
+  src: url('~@/assets/fonts/HelveticaNeueLight.otf');
+}
