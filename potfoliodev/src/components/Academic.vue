@@ -64,9 +64,9 @@ export default {
             <div v-if="professional">
                 <div class="d-flex justify-content-center text-center row" style="padding-top:2.5rem;column-gap:2rem;">
                     <div class="col-sm mb-2">
-                        <h3 style="color:#ff0b0b;"><b>EXTRA</b></h3>
-                        <h6 style="color:#ff0b0b;"><b>APRENDIZ EM COMÉRCIO/VAREJO</b></h6>
-                        <span style="color:#ff0b0b;text-align:center;"><strong>2016 - 2017</strong></span>
+                        <h3 style="color:#ff0b0b;"><b>CNPQ</b></h3>
+                        <h6 style="color:#ff0b0b;"><b>INICIAÇÃO A PESQUISA ESCOLAR</b></h6>
+                        <span style="color:#ff0b0b;text-align:center;"><strong>2020 - 2021</strong></span>
                     </div>
                     <div class="col-sm mb-2">
                         <h3 style="color:#fb0fff;"><b>TELEPERFORMANCE</b></h3>
@@ -135,9 +135,9 @@ export default {
             <div v-if="professional">
                 <div class="d-flex justify-content-center text-center row" style="padding-top:2.5rem;column-gap:2rem;">
                     <div class="col-sm mb-2">
-                        <h3 style="color:#ff0b0b;"><b>EXTRA</b></h3>
-                        <h6 style="color:#ff0b0b;"><b>APPRENTICE</b></h6>
-                        <span style="color:#ff0b0b;text-align:center;"><strong>2016 - 2017</strong></span>
+                        <h3 style="color:#ff0b0b;"><b>CNPQ</b></h3>
+                        <h6 style="color:#ff0b0b;"><b>SCIENTIFIC INITIATION SCHOLARSHIP</b></h6>
+                        <span style="color:#ff0b0b;text-align:center;"><strong>2020 - 2021</strong></span>
                     </div>
                     <div class="col-sm mb-2">
                         <h3 style="color:#fb0fff;"><b>TELEPERFORMANCE</b></h3>
