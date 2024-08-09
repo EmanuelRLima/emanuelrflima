@@ -48,7 +48,7 @@ export default {
 };
 </script>
 <template>
-<div>
+<div id="projects">
     <div v-if="Store.leanguage === 'PT-BR'" class="mb-5">
         <div class="FontProjectLight" style="margin-top:7rem !important;">
             <div class="d-flex justify-content-center">

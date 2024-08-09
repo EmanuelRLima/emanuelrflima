@@ -16,7 +16,7 @@ export default {
 };
 </script>
 <template>
-<div>
+<div id="about">
     <div v-if="Store.leanguage === 'PT-BR'" class="mb-5 d-flex justify-content-center">
         <div style="margin-top:7rem !important;">
             <div class="d-flex justify-content-center FontProjectMedium">

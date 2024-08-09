@@ -37,19 +37,19 @@ export default {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item FontProjectMedium navlink">
-                <a class="nav-link text-green" href="#"><i class="fa fa-address-book" aria-hidden="true"></i> Sobre mim</a>
+                <a class="nav-link text-green" href="#about"><i class="fa fa-address-book" aria-hidden="true"></i> Sobre mim</a>
               </li>
               <li class="nav-item FontProjectMedium navlink">
-                <a class="nav-link text-green" href="#"><i class="fa fa-futbol-o" aria-hidden="true"></i> Habilidades</a>
+                <a class="nav-link text-green" href="#skills"><i class="fa fa-futbol-o" aria-hidden="true"></i> Habilidades</a>
               </li>
               <li class="nav-item FontProjectMedium navlink">
-                <a class="nav-link text-green" href="#"><i class="fa fa-address-card-o" aria-hidden="true"></i> Qualificações</a>
+                <a class="nav-link text-green" href="#qualific"><i class="fa fa-address-card-o" aria-hidden="true"></i> Qualificações</a>
               </li>
               <li class="nav-item FontProjectMedium navlink">
-                <a class="nav-link text-green" href="#"><i class="fa fa-window-maximize" aria-hidden="true"></i> Projetos</a>
+                <a class="nav-link text-green" href="#projects"><i class="fa fa-window-maximize" aria-hidden="true"></i> Projetos</a>
               </li>
               <li class="nav-item FontProjectMedium navlink">
-                <a class="nav-link text-green" href="#"><i class="fa fa-commenting-o" aria-hidden="true"></i> Contato</a>
+                <a class="nav-link text-green" href="#contact"><i class="fa fa-commenting-o" aria-hidden="true"></i> Contato</a>
               </li>
               <li class="nav-item dropdown FontProjectMedium navlink">
                 <a class="nav-link dropdown-toggle text-green" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
