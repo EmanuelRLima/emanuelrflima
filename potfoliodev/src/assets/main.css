@@ -29,6 +29,7 @@ ul {
   border-radius:0.25rem;
   box-shadow:-0.75rem 1.25rem 1.05rem 0.25rem;
 }
+
 @media screen and (max-width: 768px) {
   .imgstart{
     width: 50%;
