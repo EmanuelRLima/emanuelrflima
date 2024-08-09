@@ -47,7 +47,7 @@ export default {
                 </div>
             </div>
             <div class="d-flex justify-content-center">
-                <span style="color:black;"><strong> All rights reserved Copyright © 2023 Emanuel Lima </strong></span>
+                <span style="color:black;"><strong> All rights reserved Copyright © 2024 Emanuel Lima </strong></span>
             </div>
         </div>
     </div>

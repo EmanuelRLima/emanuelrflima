@@ -48,7 +48,9 @@ export default {
                 <span><h1 style="color: rgb(40, 40, 40);">Hi, I'm Emanuel</h1><br><strong>
                     <h2 style="color: rgb(15, 141, 48);">FRONTEND ENGINEER</h2></strong> <br><strong>
                         <h4 style="color: rgb(40, 40, 40); font-size: 18px;">And here you can find a little about my professional side. </h4></strong></span>
-                        <button type="button" class="btn btn-outline-success">Download resume</button>
+                        <a :href="pdfs" download="curriculo.pdf">
+                            <button type="button" class="btn btn-outline-success">Download resume</button>
+                        </a>
                     </div>
                     <div class="col-md d-flex justify-content-center">
                         <img class="imgstart" src="../assets/img/PROFILE.png">
