@@ -18,8 +18,8 @@ export default {
 <template>
 <div>
     <div v-if="Store.leanguage === 'PT-BR'" class="mb-5 d-flex justify-content-center">
->       <div class="FontProjectMedium" style="margin-top:7rem !important;">
-            <div class="d-flex justify-content-center">
+       <div class="FontProjectMedium" style="margin-top:7rem !important;">
+            <div class="d-flex justify-content-center text-center">
                 <span><strong><h2 style="color:#282828;">CONHECIMENTOS E HABILIDADES</h2></strong></span>
             </div>
             <div class="d-flex justify-content-center">

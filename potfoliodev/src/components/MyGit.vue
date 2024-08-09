@@ -50,7 +50,7 @@ export default {
 <template>
 <div>
     <div v-if="Store.leanguage === 'PT-BR'" class="mb-5">
-        <div style="margin-top:7rem !important;">
+        <div class="FontProjectLight" style="margin-top:7rem !important;">
             <div class="d-flex justify-content-center">
                 <span><strong><h2 style="color:#282828;">GITHUB</h2></strong></span>
             </div>
@@ -58,13 +58,13 @@ export default {
                 <span><strong><h6 style="color:#282828;">PROJETOS</h6></strong></span>
             </div>
         </div>
-        <div class="d-flex justify-content-center container">
+        <div class="d-flex justify-content-center container FontProjectLight">
             <div class="d-flex justify-content-center align-items-center row" style="padding-top:2.5rem;column-gap:2rem;">
                 <div class="mb-5">
                     <img :src="currentImage" class="imgGit">
                 </div>
                 <div class="col-sm" style="grid-column:initial;text-align:center;">
-                    <span><strong><h4 style="color:#282828;font-size:18px;">
+                    <span><strong><h4 style="color:#282828;font-size:20px;">
                         Você pode ver projetos antigos e novos no meu github,
                         um exemplo atual é o smartlegis, um sistema de gestão de leis e decretos municipais, desenvolvido com Vue.js.
                         todos os direitos reservados a © Dimendes tecnologias. </h4></strong>

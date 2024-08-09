@@ -1,5 +1,6 @@
 <script>
 import { useMainStore } from '../stores/index';
+import pdf from '../assets/CR.pdf';
 export default {
     name: 'StartComponent',
     components: {},
@@ -11,6 +12,7 @@ export default {
     },
     data () {
         return {
+            pdfs: pdf
         };
     },
 };
@@ -28,7 +30,9 @@ export default {
                         <br>
                         <strong><h4 style="color: rgb(40, 40, 40); font-size: 20px;">E aqui você encontra um pouco sobre meu lado profissional. </h4></strong>
                     </span>
-                    <button type="button" class="btn btn-outline" style="color: rgb(15, 141, 48); border: solid rgb(118, 235, 149);">Vamos lá!</button>
+                    <a :href="pdfs" download="curriculo.pdf">
+                        <button type="button" class="btn btn-outline-success">Baixar currículo</button>
+                    </a>
                 </div>
                 <div class="col-md d-flex justify-content-center">
                     <img class="imgstart" src="../assets/img/PROFILE.png">
@@ -44,7 +48,7 @@ export default {
                 <span><h1 style="color: rgb(40, 40, 40);">Hi, I'm Emanuel</h1><br><strong>
                     <h2 style="color: rgb(15, 141, 48);">FRONTEND ENGINEER</h2></strong> <br><strong>
                         <h4 style="color: rgb(40, 40, 40); font-size: 18px;">And here you can find a little about my professional side. </h4></strong></span>
-                        <button type="button" class="btn btn-outline" style="color: rgb(15, 141, 48); border: solid rgb(118, 235, 149);">Let's go!</button>
+                        <button type="button" class="btn btn-outline-success">Download resume</button>
                     </div>
                     <div class="col-md d-flex justify-content-center">
                         <img class="imgstart" src="../assets/img/PROFILE.png">
