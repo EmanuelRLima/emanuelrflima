@@ -26,7 +26,7 @@ export default {
                 <span><strong><h6 style="color:#282828;">ANOS DE EXPERIÊNCIA</h6></strong></span>
             </div>
             <div class="d-flex justify-content-center" style="padding-top:2.5rem;column-gap:2rem;">
-                <div class="row" style="grid-column: initial; text-align: center;">
+                <div class="row" style="grid-column: initial; text-align: center; margin: 0px !important">
                     <div class="d-flex justify-content-center align-items-center col">
                         <div class="text-center mr-4">
                             <img src="../assets/img/VUE.png" style="width:50px;height:50px;">
@@ -76,7 +76,7 @@ export default {
                 <span><strong><h6 style="color:#282828;">YEARS OF EXPERIENCE</h6></strong></span>
             </div>
             <div class="d-flex justify-content-center" style="padding-top:2.5rem;column-gap:2rem;">
-                <div class="row" style="grid-column: initial; text-align: center;">
+                <div class="row" style="grid-column: initial; text-align: center; margin: 0px !important">
                     <div class="d-flex justify-content-center align-items-center col">
                         <div class="text-center mr-4">
                             <img src="../assets/img/VUE.png" style="width:50px;height:50px;">

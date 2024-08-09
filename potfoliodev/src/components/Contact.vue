@@ -28,7 +28,7 @@ export default {
         </div>
 
         <div class="d-flex justify-content-center FontProjectLight">
-            <div class="d-flex row" style="padding-top: 2.5rem; column-gap: 2rem; padding-bottom: 2.5rem;">
+            <div class="d-flex row" style="padding-top: 2.5rem; column-gap: 2rem; padding-bottom: 2.5rem;margin: 0px !important">
                 <div class="d-flex justify-content-center col-sm">
                     <span style="color: black;">
                     <i class="fa fa-commenting-o" aria-hidden="true"></i> +55 (84) 98181-3471
@@ -54,7 +54,7 @@ export default {
         </div>
 
         <div class="d-flex justify-content-center FontProjectLight">
-            <div class="d-flex row" style="padding-top: 2.5rem; column-gap: 2rem; padding-bottom: 2.5rem;">
+            <div class="d-flex row" style="padding-top: 2.5rem; column-gap: 2rem; padding-bottom: 2.5rem;margin: 0px !important">
                 <div class="d-flex justify-content-center col-sm">
                     <span style="color: black;">
                     <i class="fa fa-commenting-o" aria-hidden="true"></i> +55 (84) 98181-3471
