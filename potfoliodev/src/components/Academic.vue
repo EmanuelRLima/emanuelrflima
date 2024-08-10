@@ -64,13 +64,13 @@ export default {
             <div v-if="professional">
                 <div class="d-flex justify-content-center text-center row FontProjectMedium" style="padding-top:2.5rem;column-gap:2rem;margin: 0px !important">
                     <div class="col-sm mb-2">
-                        <h3 style="color:#ff0b0b;"><b>CNPQ</b></h3>
-                        <h6 style="color:#ff0b0b;"><b>INICIAÇÃO A PESQUISA ESCOLAR</b></h6>
+                        <h3 style="color:#ff0b0b;"><b>WORKANA</b></h3>
+                        <h6 style="color:#ff0b0b;"><b>FULL STACK DEVELOPER FREELANCER</b></h6>
                         <span style="color:#ff0b0b;text-align:center;"><strong>2020 - 2021</strong></span>
                     </div>
                     <div class="col-sm mb-2">
-                        <h3 style="color:#fb0fff;"><b>TELEPERFORMANCE</b></h3>
-                        <h6 style="color:#fb0fff;"><b>EXPERT EM INTERAÇÃO</b></h6>
+                        <h3 style="color:#fb0fff;"><b>CNPQ</b></h3>
+                        <h6 style="color:#fb0fff;"><b>INICIAÇÃO A PESQUISA ESCOLAR</b></h6>
                         <span style="color:#fb0fff;text-align:center;"><strong>2021 - 2022</strong></span>
                     </div>
                 </div>
@@ -135,13 +135,13 @@ export default {
             <div v-if="professional">
                 <div class="d-flex justify-content-center text-center row FontProjectMedium" style="padding-top:2.5rem;column-gap:2rem;margin: 0px !important">
                     <div class="col-sm mb-2">
-                        <h3 style="color:#ff0b0b;"><b>CNPQ</b></h3>
-                        <h6 style="color:#ff0b0b;"><b>SCIENTIFIC INITIATION SCHOLARSHIP</b></h6>
-                        <span style="color:#ff0b0b;text-align:center;"><strong>2020 - 2021</strong></span>
+                        <h3 style="color:#ff0b0b;"><b>WORKANA</b></h3>
+                        <h6 style="color:#ff0b0b;"><b>FULL STACK DEVELOPER FREELANCER</b></h6>
+                        <span style="color:#ff0b0b;text-align:center;"><strong>2020 - 2023</strong></span>
                     </div>
                     <div class="col-sm mb-2">
-                        <h3 style="color:#fb0fff;"><b>TELEPERFORMANCE</b></h3>
-                        <h6 style="color:#fb0fff;"><b>EXPERT IN INTERACTION</b></h6>
+                        <h3 style="color:#fb0fff;"><b>CNPQ</b></h3>
+                        <h6 style="color:#fb0fff;"><b>SCIENTIFIC INITIATION SCHOLARSHIP</b></h6>
                         <span style="color:#fb0fff;text-align:center;"><strong>2021 - 2022</strong></span>
                     </div>
                 </div>
