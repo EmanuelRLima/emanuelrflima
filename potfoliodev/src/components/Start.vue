@@ -1,6 +1,7 @@
 <script>
 import { useMainStore } from '../stores/index';
-import pdf from '../assets/CR.pdf';
+import pdf_br from '../assets/CV_PT_BR.pdf';
+import pdf_en from '../assets/CV_EN_US.pdf';
 export default {
     name: 'StartComponent',
     components: {},
@@ -12,7 +13,8 @@ export default {
     },
     data () {
         return {
-            pdfs: pdf
+            pdfs: pdf_br,
+            pdfss: pdf_en
         };
     },
 };
@@ -48,7 +50,7 @@ export default {
                 <span><h1 style="color: rgb(40, 40, 40);">Hi, I'm Emanuel</h1><br><strong>
                     <h2 style="color: rgb(15, 141, 48);">FRONTEND ENGINEER</h2></strong> <br><strong>
                         <h4 style="color: rgb(40, 40, 40); font-size: 18px;">And here you can find a little about my professional side. </h4></strong></span>
-                        <a :href="pdfs" download="curriculo.pdf">
+                        <a :href="pdfss" download="curriculo.pdf">
                             <button type="button" class="btn btn-outline-success">Download resume</button>
                         </a>
                     </div>
